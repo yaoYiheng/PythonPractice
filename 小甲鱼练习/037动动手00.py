@@ -4,7 +4,7 @@ class Ticket:
     children = 0.5 * weekday
     
     def adult(self):
-        print('请输入成人人数:')
+        print("请输入成人人数:")
         self.adult = int(input('人数为:'))
         
     def children(self):

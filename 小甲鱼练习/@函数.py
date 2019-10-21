@@ -7,3 +7,4 @@ def power(x, y):
     return result
 
 print(power(2, 3))
+

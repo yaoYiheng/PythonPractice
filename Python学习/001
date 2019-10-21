@@ -1,0 +1,13 @@
+class Turtal:
+    """docstring for Turtal."""
+    #属性
+    color = 'green'
+    weight = 10
+    legs = 4
+    shell = True
+
+
+    def __init__(self, arg):
+        super(Turtal, self).__init__()
+        self.arg = arg
+        
